@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+.menu {
+    background-color: #ff3d00;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu > ul > li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+/* Main hover effect */
+.menu > ul > li > a:hover {
+    background-color: #ff3d00;
+}
+
+/* Submenu styles */
+.menu ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ff3d00;
+    display: none;
+    flex-direction: column;
+}
+
+.menu ul li:hover > ul {
+    display: block;
+}
+
+.menu ul ul li {
+    position: relative;
+    min-width: 150px;
+}
+
+.menu ul ul li a {
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Submenu within a submenu */
+.menu ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    background-color: #ff3d00;
+}
+
+.menu ul ul li:hover > ul {
+    display: block;
+}
+
+/* Specific hover effect for Tutorials */
+.menu ul ul li:nth-child(3) > a:hover {
+    background-color: #000;
+    color: white;
+}

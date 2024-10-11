@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<h1 style="color: orange;">Student Registration information</h1>
+<div class="row">
+  <div class="column">
+    
+    <hr style="color: gray; size: 10px;">
+    <form action="">
+        <caption>Please enter relevent information</caption>
+        <h6 style="color: gray;">Mandatory Field*</h6>
+        <h4 style="color: gray;">District (<small>Institute District : Where you want do your course</small>)*</h4>
+        <select name="" id="">
+            <option value="">--Select One--</option>
+            <option value="">Dhaka</option>
+            <option value="">Sylhet</option>
+            <option value="">Khulna</option>
+        </select>
+        <h4 style="color: gray;">Course*</h4>
+        <select name="" id="">
+            <option value="">--Select One--</option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JavaScript</option>
+        </select>
+        <h4 style="color: gray;">Student Name*</h4>
+        <input type="text">
+        <h4 style="color: gray;">Father Name*</h4>
+        <input type="text">
+        <h4 style="color: gray;">Mother Name*</h4>
+        <input type="text"><br>
+        <table border="1px" style="border-collapse : collapse ">
+            <h4 style="color: gray;">Date of Birth*</h4>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Month</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                   <td>
+                    <select name="" id="">
+                        <option value="">--Select Day--</option>
+                        <option value="">15</option>
+                    </select>
+                   </td>   
+                   <td>
+                    <select name="" id="">
+                        <option value="">--Select Month--</option>
+                        <option value="">10</option>
+                    </select>
+                   </td>
+                   <td>
+                    <select name="" id="">
+                        <option value="">--Select Year--</option>
+                        <option value="">2004</option>
+                    </select>
+                   </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <h4 style="color: gray;">Gender*</h4>
+        <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label>
+        <h4 style="color: gray;">Physically Handicapped*</h4>
+        <input type="radio" id="yes" name="Physically" value="yes">
+          <label for="male">Yes</label>
+          <input type="radio" id="no" name="Physically" value="no">
+          <label for="female">No</label>
+        <h4 style="color: gray;">Email*</h4>
+        <input type="text"> 
+        <h4 style="color: gray;">Phone*</h4>
+        <input type="number" name="" id="">
+    </form>
+  </div>
+  <div class="column">
+    <form action="">
+        <hr>
+        <h4 style="color: gray;">Identification Type*</h4>
+        <select name="" id="">
+            <option value="">--Select One--</option>
+            <option value="">NID</option>
+            <option value="">Passport</option>
+            <option value="">Drivers License</option>
+        </select><br>
+        <input type="number" placeholder="Enter your number">
+        <h4 style="color: gray;">Home District*</h4>
+        <select name="" id="">
+            <option value="">--Select One--</option>
+            <option value="">Dhaka</option>
+            <option value="">Sylhet</option>
+            <option value="">Khulna</option>
+        </select>
+        <h4 style="color: gray;">Upazila*</h4>
+        <select name="" id="">
+            <option value="">--Select One--</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+        
+        <h4 style="color: gray;">Village/House No./Road No./Other Alternative*</h4>
+        <input type="text">
+        
+        <h4 style="color: gray;">Post Office*</h4>
+        <input type="text">
+        <h4 style="color: gray;">Educational Qualification*</h4>
+        <select name="" id="">
+            <option value="">--Select One--</option>
+            <option value="">JSC</option>
+            <option value="">SSC</option>
+            <option value="">HSC</option>
+        </select>
+        <h4 style="color: gray;">Have any computer?*</h4>
+        <input type="radio" id="yes" name="computer?" value="yes">
+          <label for="male">Yes</label>
+          <input type="radio" id="no" name="computer?" value="no">
+          <label for="female">No</label>
+        <h4 style="color: gray;">Photograph*</h4>
+        <button>Choose File</button>
+        <h4 style="color: gray;">Siganture*</h4>
+        <button>Choose File</button><br>
+        <hr>
+        <button style="font-size: large;">SUBMIT DATA</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

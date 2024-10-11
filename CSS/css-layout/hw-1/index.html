@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login menu</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+        padding: 6px;
+        padding-left: 30px;
+        width: 200px;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     .container {
+        background-color: blueviolet;
+        width: 1280px;
+        height: 720px;
+        position: relative;
+     }
+     .section {
+        background-color: white;
+        width: 70%;
+        height: 70%;
+        position: absolute;
+        left: 180px;
+        top: 110px;
+     }
+     .login {
+        float: left;
+        margin-left: 100px;
+        margin-top: 80px;
+     }
+     .girlimage {
+        float: right;
+     }
+     .overlay {
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 4px;
+    }
+    .lo {
+        color: blueviolet;
+    }
+
+    .forgot-password {
+          color: blueviolet;
+    }
+    .login-button {
+        background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="login">
+                <h1><span class="lo">Lo</span>gin</h1>
+                <input type="text" placeholder="Enter your email"><hr><br>
+                <input type="password" placeholder="Enter your password"><hr><br>
+                <a href="#" class="forgot-password">Forgot password?</a><br>
+                <button class="login-button">Login</button>
+                <p>Don't have an account?</p><a href="#" class="forgot-password">Signup now</a>
+            </div>
+            <div class="girlimage">
+                <img src="./photo-1485712207830-8a665e701494.jpg" alt="" class="overlay">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

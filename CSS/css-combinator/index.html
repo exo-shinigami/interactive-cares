@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 ~ p {
+            color: rebeccapurple;
+        }
+        /* h1 + p {
+            color: red;
+        } */
+        /* .parent > h1 {
+            color: red;
+        } */
+        /* .parent p {
+            color: red;
+        } */
+    </style>
+</head>
+<body>
+    <!-- 
+    1.descendant selector(space)
+    2.Child selector(>)
+    3.Adjascent Sibling Selector (+)
+    4.General Sibling Selector (~)
+     -->
+
+     <div class="parent">
+        <h1>Hello World</h1>
+        <p>I am a paragraph</p>
+        <p>I am a paragraph</p>
+        <h1>I am a second hello World</h1>
+        <p>I'm from second hello World</p>
+        <!-- <div>
+            <h1>Hello I'm inside a div</h1>
+        </div> -->
+        <!-- <div class="child">
+            <p>Hello World</p>
+        </div>
+        <p>Hello World</p> -->
+     </div>
+</body>
+</html>

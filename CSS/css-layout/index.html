@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    ul li {
+        background-color: tomato ;
+        padding: 15px 30px;
+        cursor: pointer;
+        position: relative;
+    }
+    ul li:hover {
+        background-color: rgb(0, 0, 0);
+    }
+    ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    ul.dropdown {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+    }
+    ul li:hover ul.dropdown {
+        display: block;
+    }
+</style>
+<body>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Graphic Designing</a></li>
+        <li><a href="">WordPress</a>
+           
+            <ul class="dropdown">
+                <li><a href="">Themes</a></li>
+                <li><a href="">Plugins</a>
+                
+                       <ul class="dropdown2">
+                        
+                       </ul>  
+                
+                </li>
+                <li><a href="">Tutorials</a></li>
+            </ul>
+
+        </li>
+        <li><a href="">Inspiration</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</body>
+</html>

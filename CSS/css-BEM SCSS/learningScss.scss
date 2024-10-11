@@ -1,0 +1,58 @@
+@import 'variables';
+
+$primary-color : rgb(36, 187, 94);
+$fSize: 48px;
+$fFamily: 'Arial';
+// mixin
+@mixin menu-basic($direction, $gap) {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: $direction;
+    gap: $gap;
+}
+// Inheritance
+%btn {
+    display: inline-block;
+    padding: 15px 35px;
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+
+// & -> parent selector in a nested rule
+
+// Menu
+
+.menu {
+@include menu-basic(row, 20px);
+
+    
+    &__item  {
+         background-color: tomato;
+         padding: 10px 25px;
+         &:hover {
+            background-color: teal;
+         }
+    }
+    &__link {
+        text-decoration: none;
+        color:white ;
+    }
+}
+
+.footer-menu {
+    @include menu-basic(column, 0);
+}
+
+.google {
+    @extend %btn;
+    background-color: tomato;
+}
+
+.yahoo {
+    @extend %btn;
+    background-color: teal;
+}

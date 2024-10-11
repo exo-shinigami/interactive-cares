@@ -1,0 +1,1040 @@
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+    /* navbar start */
+    .nav-btn a {
+        font-size: 12px;
+        padding: 0px 14px;
+    }
+    .menu-bg ul li a {
+        font-size: 13px;
+        line-height: 5px;
+    }
+    /* navbar end */
+    /* banner start */
+    #banner {
+        padding: 80px 0 50px 0; 
+    }
+    .banner-text h2 {
+        font-size: 23px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .responsive {
+        width: 100%;
+        height: auto; 
+    }
+    .banner-text p {
+        color: black !important;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        padding: 13px 0;
+    }
+    .banner-btn {
+        text-align: center;
+    }
+    .banner-btn a {
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 25px;
+        padding: 5px 8px;
+        margin: 0px 0 20px 0;
+    }
+    /* banner end */
+    /* features start */
+    .features-text h3 {
+        font-size: 30px;
+    }
+    .features-text p {
+        font-size: 11px;
+        padding: 2px 0;
+    }
+    .features-slide span {
+        font-size: 14px;
+    }
+    .features-last h3 {
+        font-size: 19px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    .features-last p {
+        font-size: 13px;
+        padding: 7px 0;
+        text-align: center;
+    }
+    .features-btn a {
+        font-size: 12px;
+        padding: 5px 14px;
+        text-align: center;
+    }
+    .features-btn{
+        text-align: center;
+    }
+    /* features end */
+    /* donload start */
+    #download {
+        padding: 2px 0;
+    }
+    .download-text h4 {
+        font-size: 18px;
+    }
+    .download-text p {
+        font-size: 13px;
+        padding: 2px 0;
+    }
+    .card-body h5 {
+        font-size: 16px;
+    }
+    .card-body p {
+        font-size: 16px;
+    }
+    .download-btn a {
+        font-size: 10px;
+        padding: 7px 28px;
+    }
+    .card {
+        box-shadow: 2px 2px gray;
+        margin-bottom: 20px;
+    }
+    .card-img-top{
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 30%;
+        height: auto;
+    }
+    /* download end */ 
+    /* faq start */
+    #faq {
+        padding: 18px 0;
+    }
+    .dropdown span {
+        font-size: 11px;
+        padding: 0px 4px 0px 0;
+    }
+    .responsive1{
+        width: 5%;
+        height: auto;
+    }
+    .drop-row {
+        margin: 20px 0;
+    }
+    .download-btn a {
+        font-size: 10px;
+        padding: 3px 14px;
+    }
+    /* faq end */
+    /* stay start */
+    #stay {
+        padding-bottom: 20px;
+    }
+    .stay-text h4 {
+        font-size: 14px;
+        padding: 28px 0;
+    }
+    .stay-text h5 {
+        font-size: 17px;
+    }
+    .form-label {
+        font-size: 13px;
+        padding-top: 13px;
+    }
+    .form-text {
+        font-size: 7px;
+    }
+    .btn-primary{
+        font-size: 10px;
+    }
+    /* stay end */
+    /* footer start */
+    .responsive2{
+        width: 90%;
+        height: auto;
+    }
+    .footer-menu ul li a {
+        color: white !important;
+        font-family: "Open Sans", sans-serif;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 15px;
+        display: inline-block;
+    }
+    /* footer end */
+}
+
+/* xs end */
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+        /* navbar start */
+        .nav-btn a {
+            font-size: 12px;
+            padding: 0px 14px;
+        }
+        .menu-bg ul li a {
+            font-size: 13px;
+            line-height: 5px;
+        }
+        /* navbar end */
+        /* banner start */
+        #banner {
+            padding: 80px 0 50px 0; 
+        }
+        .banner-text h2 {
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .responsive {
+            width: 100%;
+            height: auto; 
+        }
+        .banner-text p {
+            color: black !important;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            padding: 13px 0;
+        }
+        .banner-btn {
+            text-align: center;
+        }
+        .banner-btn a {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 25px;
+            padding: 10px 20px;
+            margin: 0px 0 20px 0;
+        }
+        /* banner end */
+        /* features start */
+        .features-text h3 {
+            font-size: 38px;
+        }
+        .features-text p {
+            font-size: 11px;
+            padding: 2px 0;
+        }
+        .features-slide span {
+            font-size: 14px;
+        }
+        .features-last h3 {
+            font-size: 25px;
+            font-weight: 600;
+            padding-top: 27px;
+            text-align: center;
+        }
+        .features-last p {
+            font-size: 20px;
+            text-align: center;
+        }
+        .features-text p {
+            font-size: 14px;
+            padding: 2px 0;
+            text-align: center;
+        }
+        .features-btn a {
+            font-size: 18px;
+            padding: 10px 28px;
+            text-align: center;
+        }
+        .features-btn{
+            text-align: center;
+        }
+        /* features end */
+        /* donload start */
+        #download {
+            padding: 2px 0;
+        }
+        .download-text h4 {
+            font-size: 28px;
+        }
+        .download-text p {
+            font-size: 17px;
+            padding: 2px 0;
+        }
+        .card-img-top{
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+            width: 40%;
+            height: auto;
+        }
+        .card-body h5 {
+            font-size: 16px;
+        }
+        .card-body p {
+            font-size: 16px;
+        }
+        .download-btn a{
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+        .card {
+            box-shadow: 2px 2px gray;
+            margin-bottom: 20px;
+        }
+        /* download end */ 
+        /* faq start */
+        #faq {
+            padding: 18px 0;
+        }
+        .dropdown span {
+            font-size: 20px;
+            padding: 0px 4px 0px 0;
+        }
+        .responsive1{
+            width: 5%;
+            height: auto;
+        }
+        .drop-row {
+            margin: 20px 0;
+        }
+        .download-btn a{
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+        /* faq end */
+        /* stay start */
+        #stay {
+            padding-bottom: 20px;
+        }
+        .stay-text h4 {
+            font-size: 18px;
+            padding: 35px 0;
+        }
+        .stay-text h5 {
+            font-size: 24px;
+        }
+        .form-label {
+            font-size: 16px;
+            padding-top: 18px;
+        }
+        .form-text {
+            font-size: 7px;
+        }
+        .btn-primary {
+            font-size: 18px;
+        }
+        /* stay end */
+        /* footer start */
+        .responsive2{
+            width: 90%;
+            height: auto;
+        }
+        .footer-menu ul li a {
+            color: white !important;
+            font-family: "Open Sans", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 15px;
+            display: inline-block;
+        }
+        /* footer end */
+
+}
+
+/* sm end */
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+            /* navbar start */
+            .nav-btn a {
+                font-size: 12px;
+                padding: 0px 14px;
+            }
+            .menu-bg ul li a {
+                font-size: 13px;
+                line-height: 5px;
+            }
+            /* navbar end */
+            /* banner start */
+            #banner {
+                padding: 90px 0 20px 0;
+            }
+            .banner-text h2 {
+                font-size: 37px;
+                font-weight: 600;
+                text-align: center;
+            }
+            .responsive {
+                width: 100%;
+                height: auto; 
+            }
+            .banner-text p {
+                color: black !important;
+                font-family: "Open Sans", sans-serif;
+                font-size: 17px;
+                font-weight: 400;
+                text-align: center;
+                padding: 11px 0;
+            }
+            .banner-btn {
+                text-align: center;
+            }
+            .banner-btn a {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 25px;
+                padding: 10px 20px;
+                margin: 0px 0 20px 0;
+            }
+            /* banner end */
+            /* features start */
+            .features-text h3 {
+                font-size: 44px;
+            }
+            .features-text p {
+                font-size: 17px;
+                padding: 10px 0;
+                text-align: center;
+            }
+            .features-slide span {
+                font-size: 20px;
+            }
+            .features-last h3 {
+                font-size: 25px;
+                font-weight: 600;
+                padding-top: 27px;
+                text-align: center;
+            }
+            .features-last p {
+                font-size: 20px;
+                text-align: center;
+            }
+            .features-text p {
+                font-size: 14px;
+                padding: 2px 0;
+                text-align: center;
+            }
+            .features-btn a {
+                font-size: 18px;
+                padding: 10px 28px;
+                text-align: center;
+            }
+            .features-btn{
+                text-align: center;
+            }
+            /* features end */
+            /* donload start */
+            #download {
+                padding: 2px 0;
+            }
+            .download-text h4 {
+                font-size: 28px;
+            }
+            .download-text p {
+                font-size: 17px;
+                padding: 2px 0;
+            }
+            .card-img-top{
+                display: block; 
+                margin-left: auto; 
+                margin-right: auto; 
+                width: 40%;
+                height: auto;
+            }
+            .card-body h5 {
+                font-size: 16px;
+            }
+            .card-body p {
+                font-size: 16px;
+            }
+            .download-btn a{
+                font-size: 20px;
+                padding: 10px 20px;
+            }
+            .card {
+                box-shadow: 2px 2px gray;
+                margin-bottom: 20px;
+            }
+            /* download end */ 
+            /* faq start */
+            #faq {
+                padding: 18px 0;
+            }
+            .dropdown span {
+                font-size: 20px;
+                padding: 0px 4px 0px 0;
+            }
+            .responsive1{
+                width: 5%;
+                height: auto;
+            }
+            .drop-row {
+                margin: 20px 0;
+            }
+            .download-btn a{
+                font-size: 20px;
+                padding: 10px 20px;
+            }
+            /* faq end */
+            /* stay start */
+            #stay {
+                padding-bottom: 20px;
+            }
+            .stay-text h4 {
+                font-size: 18px;
+                padding: 35px 0;
+            }
+            .stay-text h5 {
+                font-size: 24px;
+            }
+            .form-label {
+                font-size: 16px;
+                padding-top: 18px;
+            }
+            .form-text {
+                font-size: 7px;
+            }
+            .btn-primary {
+                font-size: 18px;
+            }
+            /* stay end */
+            /* footer start */
+            .responsive2{
+                width: 90%;
+                height: auto;
+            }
+            .footer-menu ul li a {
+                color: white !important;
+                font-family: "Open Sans", sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 15px;
+                display: inline-block;
+            }
+            /* footer end */
+}
+
+/* md end */
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){
+                /* navbar start */
+                .nav-btn a {
+                    font-size: 16px;
+                    padding: 8px 24px;
+                }
+                .menu-bg ul li a {
+                    font-size: 16px;
+                    line-height: 5px;
+                }
+                /* navbar end */
+                /* banner start */
+                #banner {
+                    padding: 90px 0 20px 0;
+                }
+                .banner-text h2 {
+                    font-size: 37px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                .responsive {
+                    width: 100%;
+                    height: auto; 
+                }
+                .banner-text p {
+                    color: black !important;
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 17px;
+                    font-weight: 400;
+                    text-align: center;
+                    padding: 11px 0;
+                }
+                .banner-btn {
+                    text-align: center;
+                }
+                .banner-btn a {
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 25px;
+                    padding: 10px 20px;
+                    margin: 0px 0 20px 0;
+                }
+                /* banner end */
+                /* features start */
+                .features-text h3 {
+                    font-size: 44px;
+                }
+                .features-text p {
+                    font-size: 17px;
+                    padding: 10px 0;
+                    text-align: center;
+                }
+                .features-slide span {
+                    font-size: 20px;
+                }
+                .features-last h3 {
+                    font-size: 25px;
+                    font-weight: 600;
+                    padding-top: 27px;
+                    text-align: center;
+                }
+                .features-last p {
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .features-text p {
+                    font-size: 14px;
+                    padding: 2px 0;
+                    text-align: center;
+                }
+                .features-btn a {
+                    font-size: 18px;
+                    padding: 10px 28px;
+                    text-align: center;
+                }
+                .features-btn{
+                    text-align: center;
+                }
+                /* features end */
+                /* donload start */
+                #download {
+                    padding: 2px 0;
+                }
+                .download-text h4 {
+                    font-size: 28px;
+                }
+                .download-text p {
+                    font-size: 17px;
+                    padding: 2px 0;
+                }
+                .card-img-top{
+                    display: block; 
+                    margin-left: auto; 
+                    margin-right: auto; 
+                    width: 40%;
+                    height: auto;
+                }
+                .card-body h5 {
+                    font-size: 16px;
+                }
+                .card-body p {
+                    font-size: 16px;
+                }
+                .download-btn a{
+                    font-size: 20px;
+                    padding: 10px 20px;
+                }
+                .card {
+                    box-shadow: 2px 2px gray;
+                    margin-bottom: 20px;
+                }
+                /* download end */ 
+                /* faq start */
+                #faq {
+                    padding: 18px 0;
+                }
+                .dropdown span {
+                    font-size: 20px;
+                    padding: 0px 4px 0px 0;
+                }
+                .responsive1{
+                    width: 5%;
+                    height: auto;
+                }
+                .drop-row {
+                    margin: 20px 0;
+                }
+                .download-btn a{
+                    font-size: 20px;
+                    padding: 10px 20px;
+                }
+                /* faq end */
+                /* stay start */
+                #stay {
+                    padding-bottom: 20px;
+                }
+                .stay-text h4 {
+                    font-size: 18px;
+                    padding: 35px 0;
+                }
+                .stay-text h5 {
+                    font-size: 24px;
+                }
+                .form-label {
+                    font-size: 16px;
+                    padding-top: 18px;
+                }
+                .form-text {
+                    font-size: 7px;
+                }
+                .btn-primary {
+                    font-size: 18px;
+                }
+                /* stay end */
+                /* footer start */
+                .responsive2{
+                    width: 90%;
+                    height: auto;
+                }
+                .footer-menu ul li a {
+                    color: white !important;
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 15px;
+                    display: inline-block;
+                }
+                /* footer end */
+}
+
+/* lg end */
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){
+                    /* navbar start */
+                    .nav-btn a {
+                        font-size: 16px;
+                        padding: 8px 24px;
+                    }
+                    .menu-bg ul li a {
+                        font-size: 20px;
+                        line-height: 5px;
+                    }
+                    /* navbar end */
+                    /* banner start */
+                    #banner {
+                        padding: 90px 0 20px 0;
+                    }
+                    .banner-text h2 {
+                        font-size: 37px;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                    .responsive {
+                        width: 100%;
+                        height: auto; 
+                    }
+                    .banner-text p {
+                        color: black !important;
+                        font-family: "Open Sans", sans-serif;
+                        font-size: 17px;
+                        font-weight: 400;
+                        text-align: center;
+                        padding: 50px 0;
+                    }
+                    .banner-btn {
+                        text-align: center;
+                    }
+                    .banner-btn a {
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        padding: 10px 20px;
+                        margin: 0px 0 20px 0;
+                    }
+                    /* banner end */
+                    /* features start */
+                    .features-text h3 {
+                        font-size: 44px;
+                    }
+                    .features-text p {
+                        font-size: 17px;
+                        padding: 10px 0;
+                        text-align: center;
+                    }
+                    .features-slide span {
+                        font-size: 20px;
+                    }
+                    .features-last h3 {
+                        font-size: 25px;
+                        font-weight: 600;
+                        padding-top: 27px;
+                        text-align: center;
+                    }
+                    .features-last p {
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                    .features-text p {
+                        font-size: 14px;
+                        padding: 2px 0;
+                        text-align: center;
+                    }
+                    .features-btn a {
+                        font-size: 18px;
+                        padding: 10px 28px;
+                        text-align: center;
+                    }
+                    .features-btn{
+                        text-align: center;
+                    }
+                    /* features end */
+                    /* donload start */
+                    #download {
+                        padding: 2px 0;
+                    }
+                    .download-text h4 {
+                        font-size: 28px;
+                    }
+                    .download-text p {
+                        font-size: 17px;
+                        padding: 2px 0;
+                    }
+                    .card-img-top{
+                        display: block; 
+                        margin-left: auto; 
+                        margin-right: auto; 
+                        width: 40%;
+                        height: auto;
+                    }
+                    .card-body h5 {
+                        font-size: 16px;
+                    }
+                    .card-body p {
+                        font-size: 16px;
+                    }
+                    .download-btn a{
+                        font-size: 20px;
+                        padding: 10px 20px;
+                    }
+                    .card {
+                        box-shadow: 2px 2px gray;
+                        margin-bottom: 20px;
+                    }
+                    /* download end */ 
+                    /* faq start */
+                    #faq {
+                        padding: 18px 0;
+                    }
+                    .dropdown span {
+                        font-size: 20px;
+                        padding: 0px 4px 0px 0;
+                    }
+                    .responsive1{
+                        width: 5%;
+                        height: auto;
+                    }
+                    .drop-row {
+                        margin: 20px 0;
+                    }
+                    .download-btn a{
+                        font-size: 20px;
+                        padding: 10px 20px;
+                    }
+                    /* faq end */
+                    /* stay start */
+                    #stay {
+                        padding-bottom: 20px;
+                    }
+                    .stay-text h4 {
+                        font-size: 18px;
+                        padding: 35px 0;
+                    }
+                    .stay-text h5 {
+                        font-size: 24px;
+                    }
+                    .form-label {
+                        font-size: 16px;
+                        padding-top: 18px;
+                    }
+                    .form-text {
+                        font-size: 7px;
+                    }
+                    .btn-primary {
+                        font-size: 18px;
+                    }
+                    /* stay end */
+                    /* footer start */
+                    .responsive2{
+                        width: 90%;
+                        height: auto;
+                    }
+                    .footer-menu ul li a {
+                        color: white !important;
+                        font-family: "Open Sans", sans-serif;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 15px;
+                        display: inline-block;
+                    }
+                    /* footer end */
+}
+
+/* xl end */
+
+/* xxl start */
+
+@media (min-width:1400px) {
+        /* navbar start */
+        .nav-btn a {
+            font-size: 20px;
+            padding: 10px 28px;
+        }
+        .menu-bg ul li a {
+            font-size: 20px;
+            line-height: 5px;
+        }
+        /* navbar end */
+        /* banner start */
+        #banner {
+            padding: 90px 0 20px 0;
+        }
+        .banner-text h2 {
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .responsive {
+            width: 100%;
+            height: auto; 
+        }
+        .banner-text p {
+            color: black !important;
+            font-family: "Open Sans", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .banner-btn {
+            text-align: center;
+        }
+        .banner-btn a {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 25px;
+            padding: 14px 28px;
+            margin: 0px 0 20px 0;
+        }
+        /* banner end */
+        /* features start */
+        .features-text h3 {
+            font-size: 48px;
+        }
+        .features-text p {
+            font-size: 18px;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .features-slide span {
+            font-size: 20px;
+        }
+        .features-last h3 {
+            font-size: 34px;
+            font-weight: 600;
+            padding-top: 27px;
+            text-align: center;
+        }
+        .features-last p {
+            font-size: 20px;
+            text-align: center;
+        }
+        .features-text p {
+            font-size: 14px;
+            padding: 2px 0;
+            text-align: center;
+        }
+        .features-btn a {
+            font-size: 18px;
+            padding: 10px 28px;
+            text-align: center;
+        }
+        .features-btn{
+            text-align: center;
+        }
+        /* features end */
+        /* donload start */
+        #download {
+            padding: 2px 0;
+        }
+        .download-text h4 {
+            font-size: 34px;
+        }
+        .download-text p {
+            font-size: 18px;
+            padding: 16px 0;
+        }
+        .card-img-top{ 
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+            width: 40%;
+            height: auto;
+        }
+        .card-body h5 {
+            font-size: 16px;
+        }
+        .card-body p {
+            font-size: 16px;
+        }
+        .download-btn a {
+            font-size: 18px;
+            padding: 15px 24px;
+        }
+        .card {
+            box-shadow: 2px 2px gray;
+            margin-bottom: 20px;
+        }
+        /* download end */ 
+        /* faq start */
+        #faq {
+            padding: 18px 0;
+        }
+        .dropdown span {
+            font-size: 20px;
+            padding: 0px 4px 0px 0;
+        }
+        .responsive1{
+            width: 5%;
+            height: auto;
+        }
+        .drop-row {
+            margin: 20px 0;
+        }
+        .download-btn a{
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+        /* faq end */
+        /* stay start */
+        #stay {
+            padding-bottom: 20px;
+        }
+        .stay-text h4 {
+            font-size: 18px;
+            padding: 35px 0;
+        }
+        .stay-text h5 {
+            font-size: 24px;
+        }
+        .form-label {
+            font-size: 16px;
+            padding-top: 18px;
+        }
+        .form-text {
+            font-size: 7px;
+        }
+        .btn-primary {
+            font-size: 18px;
+        }
+        /* stay end */
+        /* footer start */
+        .responsive2{
+            width: 90%;
+            height: auto;
+        }
+        .footer-menu ul li a {
+            color: white !important;
+            font-family: "Open Sans", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 15px;
+            display: inline-block;
+        }
+        /* footer end */
+}
+
+/* xxl end */
+
+
+

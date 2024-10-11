@@ -1,0 +1,1 @@
+document.write ("Hello World! external script example <br/>") ;

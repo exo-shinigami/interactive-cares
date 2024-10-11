@@ -1,0 +1,38 @@
+/* Custom fonts */
+
+@font-face {
+    font-family: meow;
+    src: url(.fonts/dhuru.ttf);
+}
+
+
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: meow;
+}
+
+.para-1 {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.para-2 {
+    font-size: 18px;
+    text-transform: capitalize; 
+    letter-spacing: 10px;    
+    line-height: 60px;
+    text-indent: 40px ;
+    text-align: justify;
+    color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+/* try uppercase/lowercase */

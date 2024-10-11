@@ -1,0 +1,120 @@
+:root {
+--clrLightGray-: hsl(180, 52%, 96%);
+--clrLightGray2-: hsl(180, 31%, 95%);
+--clrDarkGray-: hsl(180, 8%, 52%);
+--clrDarkGray2-: hsl(180, 14%, 20%);
+--DesaturatedDarkCyan: hsl(180, 29%, 50%);
+
+
+
+}
+body {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: var(--clrLightGray-);
+    
+}  
+
+li {
+    list-style-type: none;
+    margin-right: 5px
+}
+
+  
+
+ul {
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative; /* Required for pseudo element */
+  
+  padding-left: 20px; /* Space for the vertical line */
+  
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background-color:var(--DesaturatedDarkCyan);
+  }
+  
+
+/* .container-logo {
+    padding-top: 15px;
+} */
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+    line-height: 10px;
+}
+
+.sub-sub-container1 {
+    display: flex;
+    flex-direction: column;
+}
+.sub-sub-container2 {
+    display: flex;
+}
+
+.first-list {
+    display: flex;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.first-list :first-child {
+    color: var(--DesaturatedDarkCyan);
+    padding: 4px
+}
+
+.first-list :nth-child(2) {
+    background-color: var(--DesaturatedDarkCyan);
+    padding: 4px;
+    border-radius: 10px;
+    color: white
+}
+
+.first-list :last-child {
+    padding: 4px;
+    background-color: var(--clrDarkGray-);
+    border-radius: 10px;
+    color: white;
+}
+
+.third-list {
+    display: flex;
+    font-size: 12px;
+    color: var(--clrDarkGray-);
+}
+
+.sub-2-list {
+    display: flex;
+    align-items: center;
+    color:var(--DesaturatedDarkCyan) ;
+}
+
+.sub-2-list li {
+    margin-left: 20px;
+    font-size: 12px;
+    background-color:var(--clrLightGray2-);
+    padding: 5px ;
+    border-radius: 10px;
+}
+
+.second-list {
+    font-weight: 700;
+}

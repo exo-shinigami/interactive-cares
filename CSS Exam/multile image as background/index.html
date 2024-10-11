@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .multi-background {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #000;
+    background-image: 
+      url('https://via.placeholder.com/400x300/FF6347/FFFFFF?text=Background+1'), 
+      url('https://via.placeholder.com/150/4682B4/FFFFFF?text=Background+2');
+    background-position: center, top right; /* Position first image at center, second at top right */
+    background-size: cover, 100px; /* Set first image to cover, second image to 100px */
+    background-repeat: no-repeat, no-repeat; /* Prevent repeating of both images */
+  }
+</style>
+</head>
+<body>
+
+<div class="multi-background"></div>
+
+</body>
+</html>

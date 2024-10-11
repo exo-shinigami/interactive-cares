@@ -1,0 +1,25 @@
+/* IICT 0 , 0 , 1 , 0      Left e jar 1 age ashbe , she priority pabe */
+.para {
+    color: purple !important;   /*Important adds extra 1 at the front */
+}
+
+/* IICT 0 , 0 , 0 , 1 */
+/* p {
+    color: red;
+} */
+
+/* 0 0 1 2 */
+div > p.para {
+    color:  red;
+}
+
+/* 0 1 0 0 */
+#heading {
+    color: blue;
+}
+
+/* 0 0 0 1 */
+
+h1 {
+    color: aqua;
+}

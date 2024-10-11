@@ -1,0 +1,42 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 720px;
+    width: 1280px;
+    background-color: #0A0C1B;
+    position: relative;
+}
+
+.stamp {
+    background-color:#1B1937 ;
+    width: 70%;
+    height: 62%;
+    position: absolute;
+    display: flex;
+    left: 180px;
+    top: 110px;
+    
+    
+}
+
+.texts {
+    padding: 50px;
+}
+
+.stats {
+    display: inline-block;
+    margin: 10px;
+}
+
+span {
+    color: #9465BF;
+}
+
+.grayed {
+    color: rgb(163, 163, 163);
+}
+
+

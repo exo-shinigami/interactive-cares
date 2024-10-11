@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h1 {
+         position: relative;
+      }
+      h1::after {
+         content: '';
+         display: inline-block;
+         width: 8px;
+         height: 14px;
+         background-color: red;
+         position: absolute;
+         border-radius: 50%;
+         left: 153px;
+         z-index: -999;
+         top: 14px;
+      }
+    </style>
+</head>
+<body>
+    
+   <h1>Hello World</h1>
+    
+</body> 
+</html>

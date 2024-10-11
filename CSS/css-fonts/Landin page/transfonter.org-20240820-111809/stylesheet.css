@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Li Chayana Teesta Unicode';
+    src: url('LiChayanaTeestaUnicode.woff2') format('woff2'),
+        url('LiChayanaTeestaUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

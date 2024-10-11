@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-image: url(./pexels-padrinan-255379.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        .login {
+            text-align: center;
+            padding: 10px;
+            width: 300px;
+            height: 500px;
+            border-radius: 10px;
+background: rgba(255, 255, 255, 0.31);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.2px);
+-webkit-backdrop-filter: blur(8.2px);
+        }
+        input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            /* From https://css.glass */
+background: rgba(255, 255, 255, 0.13);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+        }
+        .blue-accent {
+            color: grey;
+        }
+        .login-button {
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.13);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+  font-size: 16px;
+  
+  cursor: pointer;
+        }
+        .login-social1 {
+            padding: 10px 40px;
+            color: gray;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.13);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+            
+            border: none;
+            border-radius: 10px;
+        }
+        .login-social2 {
+            padding: 10px 40px;
+            margin-bottom: 20px;
+            
+            color: gray;
+            
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.13);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <input type="text" placeholder="Email"><br>
+        <input type="password" placeholder="Password"><br>
+        <a href="#" class="blue-accent">Forgot password?</a><br>
+        <button class="login-button">Login</button>
+        <p>Don't have an account?</p><a href="" class="blue-accent">Signup</a>
+        <hr>Or<hr>
+        <i class="fa-brands fa-facebook social-handle"></i>
+        <button class="login-social1">Login with Facebook</button><br>
+        <i class="fa-brands fa-google-plus social-handle"></i>
+        <button class="login-social2">Login with Google</button>
+    </div>
+</body>
+</html>
